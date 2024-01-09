@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/adoptfostersus/static/css/main.9c3b8975.css",
+    "main.js": "/adoptfostersus/static/js/main.0fea7bf9.js",
+    "static/js/787.923d94eb.chunk.js": "/adoptfostersus/static/js/787.923d94eb.chunk.js",
+    "static/media/banner.png": "/adoptfostersus/static/media/banner.70f004dc2f9f19b75827.png",
+    "static/media/team.png": "/adoptfostersus/static/media/team.bceb214d988c5743bb71.png",
+    "static/media/family2.png": "/adoptfostersus/static/media/family2.08afb495ec66ea256b18.png",
+    "static/media/family1.png": "/adoptfostersus/static/media/family1.cffdd685de989da0ba36.png",
+    "static/media/banner-mobile.png": "/adoptfostersus/static/media/banner-mobile.e9a39073e5afb13629b5.png",
+    "static/media/kid2.png": "/adoptfostersus/static/media/kid2.2aa8c937365911640c9d.png",
+    "static/media/kid3.png": "/adoptfostersus/static/media/kid3.94db924c091a084ac4c4.png",
+    "static/media/kid1.png": "/adoptfostersus/static/media/kid1.09e59a461e0fc27c8a60.png",
+    "static/media/Karma-Regular.ttf": "/adoptfostersus/static/media/Karma-Regular.ffcefa2311254c488372.ttf",
+    "static/media/Inter-Light.ttf": "/adoptfostersus/static/media/Inter-Light.02850f28027788580733.ttf",
+    "static/media/Inter-Regular.ttf": "/adoptfostersus/static/media/Inter-Regular.9ca9ba81e9dcaa12b3a1.ttf",
+    "static/media/InriaSans-Regular.ttf": "/adoptfostersus/static/media/InriaSans-Regular.b8aeafc1e24f5145aab6.ttf",
+    "index.html": "/adoptfostersus/index.html",
+    "main.9c3b8975.css.map": "/adoptfostersus/static/css/main.9c3b8975.css.map",
+    "main.0fea7bf9.js.map": "/adoptfostersus/static/js/main.0fea7bf9.js.map",
+    "787.923d94eb.chunk.js.map": "/adoptfostersus/static/js/787.923d94eb.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9c3b8975.css",
+    "static/js/main.0fea7bf9.js"
+  ]
+}
