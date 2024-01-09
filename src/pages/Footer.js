@@ -4,7 +4,7 @@ import './pages.css'
 import { Link, useMatch, useResolvedPath } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebook, faInstagram, faYoutube } from '@fortawesome/free-brands-svg-icons';
-import { faMailBulk } from '@fortawesome/free-solid-svg-icons';
+// import { faMailBulk } from '@fortawesome/free-solid-svg-icons';
 import { faEnvelope } from '@fortawesome/free-regular-svg-icons';
 
 export const Footer = () => {

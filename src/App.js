@@ -7,7 +7,7 @@ import {Contact} from "./pages/Contact"
 import {Account} from "./pages/Account"
 import { Route, Routes } from 'react-router-dom';
 import { Footer } from './pages/Footer';
-import ScrollToTop from './pages/ScrollToTop';
+// import ScrollToTop from './pages/ScrollToTop';
 
 function App() {
   return (
