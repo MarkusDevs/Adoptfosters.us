@@ -34,7 +34,7 @@ export const Wrapper = () => {
             </ul>
         </div>
 
-        <script src='./Script.js'></script>
+        {/* <script src='./Script.js'></script> */}
     </div>
   )
 }
