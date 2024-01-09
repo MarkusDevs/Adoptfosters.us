@@ -1,0 +1,34 @@
+Footer - done
+About - done
+Contact - done
+Home - done
+Account - done
+Adopt - not done
+
+Mobile ver:
+Footer - done
+About - done
+Contact - done
+Home - done
+Account - done
+Adopt - done
+
+Things to do:
+- make an API for foster kids, with provided pictures and other identification data
+- make a filter for people by race, age and gender
+- make a pagnation for adopt page
+
+
+Thing to add for polishing:
+- animate on scroll
+
+Bugs that need fixing:
+- When clicked on the router to send user to another page, page loads approximetely on the position on the previous
+  page instead of going to the top
+
+- On mobile ver, translateY is bugged and the dropdown menu, while not shown, still takes up space. |solved|
+
+- There is bug in the code for nav bar dropdown that causes react app to freeze and turn white, 
+  that's due to #navLink constantly being null for some reason.
+
+- image prop for ChildCard component doesn't work |solved|
