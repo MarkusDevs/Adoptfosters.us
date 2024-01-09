@@ -70,19 +70,19 @@ export const Footer = () => {
             </h2>
 
             <div className='d-flex ikone'>
-              <a href="">
+              <a href="#social">
                 <FontAwesomeIcon icon={faInstagram}/>
               </a>
 
-              <a href="">
+              <a href="#social">
                 <FontAwesomeIcon icon={faEnvelope} />
               </a>
 
-              <a href="">
+              <a href="#social">
                 <FontAwesomeIcon icon={faYoutube}/>
               </a>
 
-              <a href="">
+              <a href="#social">
                 <FontAwesomeIcon icon={faFacebook}/>
               </a>
             </div>

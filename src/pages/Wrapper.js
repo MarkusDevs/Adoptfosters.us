@@ -64,7 +64,9 @@ toggleNav.addEventListener('click', () => {
 })
 
 navLink.forEach(link => {
-    link.addEventListener('click', () => {
-        document.body.classList.remove('hamburger-open');
-    })
+    if(link){
+        link.addEventListener('click', () => {
+            document.body.classList.remove('hamburger-open');
+        })
+    }
 })
