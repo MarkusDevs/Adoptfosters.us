@@ -19,6 +19,7 @@ Things to do:
 - make a pagnation for adopt page
 
 
+
 Thing to add for polishing:
 - animate on scroll
 
