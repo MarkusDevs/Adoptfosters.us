@@ -4,6 +4,26 @@ import './pages.css'
 import { Link, useMatch, useResolvedPath } from 'react-router-dom';
 
 
+document.addEventListener("DOMContentLoaded", function(e){
+    const toggleNav = document.querySelector(".hamburger");
+    const navLink = document.querySelectorAll("#navLink");
+    
+    toggleNav.addEventListener('click', () => {
+        document.body.classList.toggle('hamburger-open');
+        // document.body.classList.remove('hamburger-open');
+        
+    });
+    
+    navLink.forEach(link => {
+        if(link){
+            link.addEventListener('click', () => {
+                document.body.classList.remove('hamburger-open');
+            });
+        }
+    });
+});
+
+
 export const Wrapper = () => {
   return (
     <div className='sticky-top' >
@@ -55,20 +75,3 @@ function CustomLink({to, children, ...props}){
     )
 }
 
-
-// const toggleNav = document.querySelector(".hamburger");
-// const navLink = document.querySelectorAll("#navLink");
-
-// toggleNav.addEventListener('click', () => {
-//     document.body.classList.add('hamburger-open');
-//     // document.body.classList.remove('hamburger-open');
-    
-// })
-
-// navLink.forEach(link => {
-//     if(link){
-//         link.addEventListener('click', () => {
-//             document.body.classList.remove('hamburger-open');
-//         })
-//     }
-// })

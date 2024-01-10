@@ -15,6 +15,7 @@ function App() {
       <Wrapper/>
       <div>
         
+
         <Routes>
           <Route path='/' element={<Home/>}/>
           <Route path='/adopt' element={<Adopt/>}/>
