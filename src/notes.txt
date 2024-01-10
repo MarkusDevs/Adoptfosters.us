@@ -52,5 +52,7 @@ Bugs that need fixing:
 
 - There is bug in the code for nav bar dropdown that causes react app to freeze and turn white, 
   that's due to #navLink constantly being null for some reason.
+  Update: I think it's due to using DOM incorectly and you really cant access it that way in react. That's what 
+  dudes at stack overflow said
 
 - image prop for ChildCard component doesn't work |solved|
