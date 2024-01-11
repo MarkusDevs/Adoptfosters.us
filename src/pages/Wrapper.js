@@ -8,11 +8,14 @@ document.addEventListener("DOMContentLoaded", function(e){
     const toggleNav = document.querySelector(".hamburger");
     const navLink = document.querySelectorAll("#navLink");
     
-    toggleNav.addEventListener('click', () => {
-        document.body.classList.toggle('hamburger-open');
-        // document.body.classList.remove('hamburger-open');
-        
-    });
+    if(toggleNav){
+        toggleNav.addEventListener('click', () => {
+            document.body.classList.toggle('hamburger-open');
+            // document.body.classList.remove('hamburger-open');
+            
+        });
+    }
+
     
     navLink.forEach(link => {
         if(link){
