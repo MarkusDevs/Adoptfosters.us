@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", function(e){
     const navLink = document.querySelectorAll("#navLink");
     
     toggleNav.addEventListener('click', () => {
-        document.body.classList.toggle('hamburger-open');
+        document.body.classList.add('hamburger-open');
         // document.body.classList.remove('hamburger-open');
         
     });

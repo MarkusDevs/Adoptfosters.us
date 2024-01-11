@@ -19,27 +19,6 @@ Things to do:
 - make a pagnation for adopt page
 
 
-  ● Test suite failed to run
-
-    TypeError: Cannot read properties of null (reading 'addEventListener')
-
-      60 | const navLink = document.querySelectorAll("#navLink");
-      61 |
-    > 62 | toggleNav.addEventListener('click', () => {
-         |           ^
-      63 |     document.body.classList.add('hamburger-open');
-      64 |     // document.body.classList.remove('hamburger-open');
-      65 |     
-
-      at Object.<anonymous> (src/pages/Wrapper.js:62:11)
-      at Object.<anonymous> (src/App.js:2:1)
-      at Object.<anonymous> (src/App.test.js:2:1)
-      at TestScheduler.scheduleTests (node_modules/@jest/core/build/TestScheduler.js:333:13)
-      at runJest (node_modules/@jest/core/build/runJest.js:404:19)
-      at _run10000 (node_modules/@jest/core/build/cli/index.js:320:7)
-      at runCLI (node_modules/@jest/core/build/cli/index.js:173:3)
-
-
 
 Thing to add for polishing:
 - animate on scroll
@@ -54,5 +33,7 @@ Bugs that need fixing:
   that's due to #navLink constantly being null for some reason.
   Update: I think it's due to using DOM incorectly and you really cant access it that way in react. That's what 
   dudes at stack overflow said |solved|
+
+- Hamburger button does not work on mobile versions of browsers, or any other browser except firefox developer
 
 - image prop for ChildCard component doesn't work |solved|
